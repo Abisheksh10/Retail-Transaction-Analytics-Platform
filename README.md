@@ -8,7 +8,7 @@ An enterprise-grade, full-stack analytical data platform for retail transaction 
 
 The **Retail Transaction Analytics Platform** ingests, cleans, models, and visualizes retail transactions from the *Online Retail II* dataset (spanning over 1.06 million raw records across dual sheets: `Year 2009-2010` and `Year 2010-2011`). It provides business stakeholders with executive-level financial KPIs, longitudinal sales trends, churn risk detection, product catalog management, role-based user lifecycle governance, and an auditable incremental ETL pipeline.
 * **Official UCI Dataset Link:** [UCI Machine Learning Repository: Online Retail II](https://archive.ics.uci.edu/dataset/502/online+retail+ii) Download and save it in the project root
-![Architecture Diagram](docs/architecture_diagram.png)
+![Architecture Diagram](docs/architecture diagram.png)
 
 ### Key Architectural Highlights
 
