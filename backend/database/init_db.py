@@ -71,9 +71,9 @@ def init_database() -> dict:
             print("Applied schema definitions from sql/schema.sql.")
 
             # 5. Execute indexes.sql
-            indexes_path = PROJECT_ROOT / "sql" / "indexes.sql"
-            execute_sql_file(cursor, indexes_path)
-            print("Applied performance indexes from sql/indexes.sql.")
+            # indexes_path = PROJECT_ROOT / "sql" / "indexes.sql"
+            # execute_sql_file(cursor, indexes_path)
+            # print("Applied performance indexes from sql/indexes.sql.")
 
             # 5b. Migration safeguard: ensure users table has is_active column
             cursor.execute("SHOW COLUMNS FROM users LIKE 'is_active';")
